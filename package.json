@@ -1,0 +1,35 @@
+{
+  "name": "swiggy-project",
+  "version": "1.0.0",
+  "description": "This is SWIGGY-PROJECT by Nagalaxmi",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nagalaxmi248/sample-react.git"
+  },
+  "keywords": [],
+  "author": "Nagalaxmi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nagalaxmi248/sample-react/issues"
+  },
+  "homepage": "https://github.com/Nagalaxmi248/sample-react#readme",
+  "devDependencies": {
+    "parcel": "^2.15.4",
+    "parcel-plugin-static-files-copy": "^2.6.0"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router": "^6.30.1",
+    "react-router-dom": "^6.30.1"
+  },
+  "browsersList": [
+    "last 2 Chrome version",
+    "last 2 Firefox version"
+  ]
+}
